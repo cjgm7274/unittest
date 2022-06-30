@@ -26,6 +26,11 @@ jobs:
       - run:
           name: Test
           command: mvn test
+      # run de prueba
+      - run:
+          name: Mensaje
+          command: echo "mensaje de prueba"
+          
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
